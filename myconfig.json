@@ -1,0 +1,13 @@
+{
+  "server_ip_address": "192.168.128.3",
+  "source_port_udp": 9876,
+  "destination_port_udp": 8765,
+  "destination_port_tcp_head_syn": 9999,
+  "destination_port_tcp_tail_syn": 8888,
+  "port_tcp_pre_probing": 7777,
+  "port_tcp_post_probing": 6666,
+  "udp_payload_size": 1000,
+  "inter_measurement_time": 15,
+  "num_udp_packets_in_train": 6000,
+  "udp_ttl": 255
+}
